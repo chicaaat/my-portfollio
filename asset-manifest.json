@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/chicaaat/my-portfollio/static/css/main.f855e6bc.css",
+    "main.js": "/chicaaat/my-portfollio/static/js/main.37900814.js",
+    "static/js/453.1407b060.chunk.js": "/chicaaat/my-portfollio/static/js/453.1407b060.chunk.js",
+    "static/media/logo.svg": "/chicaaat/my-portfollio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/chicaaat/my-portfollio/index.html",
+    "main.f855e6bc.css.map": "/chicaaat/my-portfollio/static/css/main.f855e6bc.css.map",
+    "main.37900814.js.map": "/chicaaat/my-portfollio/static/js/main.37900814.js.map",
+    "453.1407b060.chunk.js.map": "/chicaaat/my-portfollio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.37900814.js"
+  ]
+}
