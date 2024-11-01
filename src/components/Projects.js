@@ -1,47 +1,22 @@
-// src/components/Projects.js
+// src/pages/Projects.js
 import React from 'react';
 import styled from 'styled-components';
 
-const ProjectsContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+const Container = styled.div`
   padding: 20px;
+  text-align: center;
 `;
 
-const ProjectCard = styled.div`
-  width: 300px;
-  margin: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  overflow: hidden;
-  background: white;
-`;
-
-const ProjectImage = styled.img`
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-`;
-
-const ProjectInfo = styled.div`
-  padding: 15px;
-`;
-
-const Projects = ({ projects }) => {
+const Projects = () => {
   return (
-    <ProjectsContainer>
-      {projects.map((project) => (
-        <ProjectCard key={project.id}>
-          <ProjectImage src={project.image} alt={project.title} />
-          <ProjectInfo>
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
-            <a href={project.link} target="_blank" rel="noopener noreferrer">Посмотреть проект</a>
-          </ProjectInfo>
-        </ProjectCard>
-      ))}
-    </ProjectsContainer>
+    <Container>
+      <h1>Мои проекты</h1>
+      <ul>
+        <li>Проект 1: Описание проекта 1</li>
+        <li>Проект 2: Описание проекта 2</li>
+        <li>Проект 3: Описание проекта 3</li>
+      </ul>
+    </Container>
   );
 };
 

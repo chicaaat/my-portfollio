@@ -1,38 +1,36 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 100vh; /* Минимальная высота на весь экран */
+  background-image: url('https://images.unsplash.com/photo-1516735034935-5578e9f2f04d'); 
+  background-size: cover; /* Фон будет покрывать весь экран */
+  background-position: center; /* Центрирование фона */
+  background-repeat: no-repeat; /* Фон не повторяется */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start; /* Начинаем размещение элементов сверху */
+  color: white; /* Цвет текста по умолчанию */
 }
 
-.App-link {
-  color: #61dafb;
+nav {
+  background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон для навигации */
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav ul {
+  list-style-type: none; /* Убираем маркеры */
+  padding: 0; /* Убираем отступы */
+  display: flex;
+  justify-content: center; /* Центрируем навигацию */
+}
+
+nav li {
+  margin: 0 15px; /* Отступы между элементами */
+}
+
+nav a {
+  color: white; /* Цвет ссылок */
+  text-decoration: none; /* Убираем подчеркивание */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Подчеркивание при наведении */
 }
